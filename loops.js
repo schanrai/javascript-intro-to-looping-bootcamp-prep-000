@@ -9,13 +9,15 @@ function forLoop(array){
     return array;
   }
 
-  function whileLoop(n){
+function whileLoop(n){
   let i=n;
   while (i>0){
    console.log(--i);
   }
   return 'done';
   }
+  
+  
   
   function maybeTrue(){
     return Math.random() >=0.5
